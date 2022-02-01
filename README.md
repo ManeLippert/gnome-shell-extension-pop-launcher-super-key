@@ -1,5 +1,7 @@
 # Pop!_OS Launcher on Super-Key
 
+![alt text](pop-launcher-super-key.png)
+
 After disabling the Pop-Cosmic Extension the Pop-Launcher does not open when hitting the Super-Key. So I forked the Pop-Cosmic Extension and removed everything that does not control the Pop-Launcher. 
 
 ## Instruction

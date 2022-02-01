@@ -1,5 +1,5 @@
 {
-  "description": "Binds Pop Launcher on Super-Key when Pop COSMIC Extension is disabled",
+  "description": "Fork of Pop COSMIC: Binds Pop Launcher on Super-Key when Pop COSMIC Extension is disabled",
   "name": "Pop Launcher Super-Key",
   "original-authors": "System76",
   "shell-version": [
@@ -9,6 +9,6 @@
   ],
   "url": "https://github.com/ManeLippert/pop-launcher-super-key",
   "uuid": "pop-launcher-super-key@ManeLippert",
-  "settings-schema": "org.gnome.shell.extensions.pop-cosmic",
+  "settings-schema": "org.gnome.shell.extensions.pop-launcher-super-key",
   "version": 1
 }

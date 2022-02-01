@@ -16,11 +16,8 @@ INSTALLNAME = $(UUID)
 
 SRC = extension.js \
       metadata.json \
-      overview.js \
       schemas/gschemas.compiled \
-      schemas/org.gnome.shell.extensions.pop-cosmic.gschema.xml \
-      settings.js \
-      stylesheet.css
+      schemas/org.gnome.shell.extensions.pop-launcher-super-key.gschema.xml \
 
 $(info UUID is "$(UUID)")
 
