@@ -11,16 +11,22 @@ Hit 'Super' to launch Pop-Launcher
 * [Pop_Shell](https://github.com/pop-os/shell) >= 1.1.0
 
 
-## Installation from Source
-
+## Installation 
+### From Source
 
 ```
 git clone https://github.com/ManeLippert/pop-launcher-super-key
 cd pop-launcher-super-key
 make && make install
 ```
+### From Release
+Download release-file, unzip it and move it to ```~/.local/share/gnome-shell/extensions/```
+
+<br>
+After that reboot your PC or hit **'Alt+Fn+F2'** and type **'r'** or type in the terminal ```killall -3 gnome-shell```
+
 ##### Note
-Use of `sudo` is not required nor recommended for COSMIC.
+Use of `sudo` is not required nor recommended.
 
 ## Removal
 
