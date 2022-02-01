@@ -3,8 +3,6 @@ const extension = ExtensionUtils.getCurrentExtension();
 const Main = imports.ui.main;
 const OverviewControls = imports.ui.overviewControls;
 
-var applications = extension.imports.applications;
-
 function with_pop_shell(callback) {
     let pop_shell = Main.extensionManager.lookup("pop-shell@system76.com");
     if (pop_shell && pop_shell.stateObj) {
@@ -15,20 +13,10 @@ function with_pop_shell(callback) {
     }
 }
 
-var OVERVIEW_WORKSPACES = 0;
-var OVERVIEW_APPLICATIONS = 1;
 var OVERVIEW_LAUNCHER = 2;
 
 function overview_visible(kind) {
-    if (kind == OVERVIEW_WORKSPACES) {
-        if (Main.overview.visibleTarget) {
-            if (!Main.overview.dash.showAppsButton.checked) {
-                return true;
-            }
-        }
-    } else if (kind == OVERVIEW_APPLICATIONS) {
-        return applications.visible();
-    } else if (kind == OVERVIEW_LAUNCHER) {
+    if (kind == OVERVIEW_LAUNCHER) {
         if (with_pop_shell((ext) => {
             return ext.window_search.dialog.visible;
         }) === true) {
@@ -43,15 +31,7 @@ function overview_visible(kind) {
 }
 
 function overview_show(kind) {
-    if (kind == OVERVIEW_WORKSPACES) {
-        if (Main.overview.visible) {
-            Main.overview.dash.showAppsButton.checked = false;
-        } else {
-            Main.overview.show(OverviewControls.ControlsState.WINDOW_PICKER);
-        }
-    } else if (kind == OVERVIEW_APPLICATIONS) {
-        applications.show();
-    } else if (kind == OVERVIEW_LAUNCHER) {
+    if (kind == OVERVIEW_LAUNCHER) {
         Main.overview.hide();
         with_pop_shell((ext) => {
             ext.tiler.exit(ext);
@@ -68,8 +48,6 @@ function overview_hide(kind) {
         with_pop_shell((ext) => {
             ext.exit_modes();
         });
-    } else if (kind == OVERVIEW_APPLICATIONS) {
-        applications.hide();
     } else {
         Main.overview.hide();
     }

@@ -14,18 +14,13 @@ INSTALLBASE = $(DESTDIR)/usr/share/gnome-shell/extensions
 endif
 INSTALLNAME = $(UUID)
 
-SRC = applications.js \
-      dark.css \
-      extension.js \
-      light.css \
+SRC = extension.js \
       metadata.json \
       overview.js \
-      prefs.js \
       schemas/gschemas.compiled \
       schemas/org.gnome.shell.extensions.pop-cosmic.gschema.xml \
       settings.js \
-      stylesheet.css \
-      topBarButton.js
+      stylesheet.css
 
 $(info UUID is "$(UUID)")
 
