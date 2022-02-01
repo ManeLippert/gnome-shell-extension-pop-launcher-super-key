@@ -33,8 +33,6 @@ Hit 'Super' to launch Pop-Launcher
 
 ## Removal
 
-To remove COSMIC, remove each component listed above, then:
-
 ```
 rm -r ~/.local/share/gnome-shell/extensions/pop-launcher-super-key@ManeLippert
 ```
