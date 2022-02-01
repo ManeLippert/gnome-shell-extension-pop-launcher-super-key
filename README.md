@@ -14,21 +14,22 @@ Hit 'Super' to launch Pop-Launcher
 
 
 ## Installation 
-### From Source
 
-```
-git clone https://github.com/ManeLippert/pop-launcher-super-key
-cd pop-launcher-super-key
-make && make install
-```
-### From Release
-Download release-file, unzip it and move it to ```~/.local/share/gnome-shell/extensions/```
+* ### From [Gnome Extensions](https://extensions.gnome.org/extension/4797/pop-launcher-super-key/)
+
+* ### From Source
+
+    ```
+    git clone https://github.com/ManeLippert/pop-launcher-super-key
+    cd pop-launcher-super-key
+    make && make install
+    killall -3 gnome-shell
+    ```
+* ### From Release
+    Download release-file, unzip it and move it to ```~/.local/share/gnome-shell/extensions/```
 
 
-After that reboot your PC or hit **'Alt+Fn+F2'** and type **'r'** or type in the terminal ```killall -3 gnome-shell```
-
-##### Note
-Use of `sudo` is not required nor recommended.
+    After that reboot your PC or hit **'Alt+Fn+F2'** and type **'r'** or type in the terminal ```killall -3 gnome-shell```
 
 ## Removal
 
