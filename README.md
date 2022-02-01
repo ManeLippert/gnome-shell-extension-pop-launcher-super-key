@@ -39,9 +39,5 @@ To remove COSMIC, remove each component listed above, then:
 rm -r ~/.local/share/gnome-shell/extensions/pop-launcher-super-key@ManeLippert
 ```
 
-## TODO
-* Test compatibility overall
-* Test compatibility with Fedora pop-shell (Wait until pop-launcher gets released on Fedora35?)
-
 ## License
 COSMIC is available under the terms of the GNU General Public License Version 3. For full license terms, see [LICENSE](./LICENSE).
