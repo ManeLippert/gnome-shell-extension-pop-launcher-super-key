@@ -5,6 +5,7 @@ const Main = imports.ui.main;
 
 let signal_overlay_key = null;
 let original_signal_overlay_key = null;
+let settings = null;
 
 // Variable to declare the value for the pop-launcher
 var OVERVIEW_LAUNCHER = 2;
@@ -124,4 +125,6 @@ function disable() {
         global.display.unblock_signal_handler(original_signal_overlay_key);
         original_signal_overlay_key = null;
     }
+
+    settings =  null;
 }
