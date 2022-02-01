@@ -22,7 +22,7 @@ make && make install
 ### From Release
 Download release-file, unzip it and move it to ```~/.local/share/gnome-shell/extensions/```
 
-<br>
+
 After that reboot your PC or hit **'Alt+Fn+F2'** and type **'r'** or type in the terminal ```killall -3 gnome-shell```
 
 ##### Note
