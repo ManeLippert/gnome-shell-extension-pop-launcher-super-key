@@ -2,11 +2,7 @@
 
 ![alt text](pop-launcher-super-key.png)
 
-After disabling the Pop-Cosmic Extension the Pop-Launcher does not open when hitting ```Super``` but when hitting ```Super+/```. So I forked the Pop-Cosmic Extension and removed everything that does not control the Pop-Launcher to get back the ```Super``` Shortcut for the Pop-Launcher back. 
-
-## Instruction
-
-Hit ```Super``` to launch Pop-Launcher
+Fork of [Pop COSMIC](https://github.com/pop-os/cosmic) that binds the Pop Launcher to the ```Super```-Key (Without ```Super+/```).
 
 ## Requirements
 * [GNOME Shell](https://gitlab.gnome.org/GNOME/gnome-shell) == 3.38.*
