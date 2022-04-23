@@ -11,7 +11,7 @@ Fork of [Pop COSMIC](https://github.com/pop-os/cosmic) that binds the Pop Launch
 
 ## Installation 
 
-* ### From [Gnome Extensions](https://extensions.gnome.org/extension/4797/pop-launcher-super-key/)
+[<img src="https://github.com/andyholmes/gnome-shell-extensions-badge/raw/master/get-it-on-ego.svg" width=120px>](https://extensions.gnome.org/extension/4797/pop-launcher-super-key/)
 
 * ### From Source
 
