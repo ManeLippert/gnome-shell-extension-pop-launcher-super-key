@@ -7,6 +7,7 @@ Fork of [Pop COSMIC](https://github.com/pop-os/cosmic) that binds the Pop Launch
 ## Requirements
 * [GNOME Shell](https://gitlab.gnome.org/GNOME/gnome-shell) == 3.38.*
 * [Pop_Shell](https://github.com/pop-os/shell) >= 1.1.0
+* [Pop-Launcher](https://github.com/pop-os/launcher)
 
 
 ## Installation 
