@@ -1,5 +1,7 @@
 # Pop!_OS Launcher on Super-Key
 
+Since Pop!_OS moves to its on desktop enviroment (COSMIC DE) and I left linux behind me this extension will get continued.
+
 ![alt text](pop-launcher-super-key.png)
 
 Fork of [Pop COSMIC](https://github.com/pop-os/cosmic) that binds the Pop Launcher to the ```Super```-Key (Without ```Super+/```).
