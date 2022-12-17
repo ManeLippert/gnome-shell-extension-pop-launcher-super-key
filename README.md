@@ -1,6 +1,6 @@
 # Pop!_OS Launcher on Super-Key
 
-Since Pop!_OS moves to its on desktop enviroment (COSMIC DE) and I left linux behind me this extension will not get continued.
+Since Pop!_OS moves to its own desktop enviroment (COSMIC DE) and I left linux behind me this extension will not get continued.
 
 ![alt text](pop-launcher-super-key.png)
 
