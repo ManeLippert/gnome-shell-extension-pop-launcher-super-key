@@ -1,5 +1,7 @@
 {
-  "description": "Fork of Pop COSMIC: Binds Pop Launcher on Super-Key when Pop COSMIC Extension is disabled",
+  "description": [
+    "Fork of Pop COSMIC: Binds Pop Launcher on Super-Key when Pop COSMIC Extension is disabled.\nSince Pop!_OS moves to its own desktop enviroment (COSMIC DE) and I left linux behind me this extension will not get continued. The last update supports GNOME-Shell up to **Version 50** but needs some testing, report back to me when some errors occur.\n\nIf you want to change the support manually, modify '~/.local/share/gnome-shell/extensions/pop-launcher-super-key@ManeLippert/metadata.json' under 'shell-version' add the desired version (e.g '44' for GNOME 44)."
+  ],
   "name": "Pop Launcher Super-Key",
   "original-authors": "System76",
   "shell-version": [
