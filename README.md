@@ -1,8 +1,10 @@
 # Pop!_OS Launcher on Super-Key
 
-Since Pop!_OS moves to its own desktop enviroment (COSMIC DE) and I left linux behind me this extension will not get continued. The last update supports GNOME-Shell up to **Version 50** but needs some testing, report back to me when some errors occur.
+Since Pop!_OS moves to its own desktop enviroment (COSMIC DE) and I left linux behind me this extension will not get continued. The last update supports GNOME-Shell up to **Version 44** but needs some testing, report back to me when some errors occur.
 
-If you want to change the support manually, modify ```~/.local/share/gnome-shell/extensions/pop-launcher-super-key@ManeLippert/metadata.json``` under ```shell-version``` add the desired version (e.g ```44``` for GNOME 44).
+## Support for Gnome 45
+
+For Gnome 45 extensions has to rewritten following this [guide](https://gjs.guide/extensions/upgrading/gnome-shell-45.html#esm). As I stated before I do not use Linux anymore so I am not able to port the extension nor to test it. When someone is willing to port and test the extension get in touch in with me via social media, [issue](https://github.com/ManeLippert/gnome-shell-extension-pop-launcher-super-key/issues/3) or a [pull request](https://github.com/ManeLippert/gnome-shell-extension-pop-launcher-super-key/pulls).
 
 ![alt text](pop-launcher-super-key.png)
 
