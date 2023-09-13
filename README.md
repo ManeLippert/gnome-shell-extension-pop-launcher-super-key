@@ -1,6 +1,6 @@
 # Pop!_OS Launcher on Super-Key
 
-This branch is dedicated to the creation and maintainence of the [https://extensions.gnome.org](https://extensions.gnome.org) releases only. On the main branch the official develepemont of this extension takes place.
+This branch is dedicated to the creation and maintainence of the [https://extensions.gnome.org](https://extensions.gnome.org) releases only. On the [main branch](https://github.com/ManeLippert/gnome-shell-extension-pop-launcher-super-key/tree/main) the official develepemont of this extension takes place.
 
 ![alt text](pop-launcher-super-key.png)
 
