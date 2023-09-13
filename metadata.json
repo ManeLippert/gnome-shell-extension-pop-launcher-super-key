@@ -10,15 +10,10 @@
     "42",
     "43",
     "44",
-    "45",
-    "46",
-    "47",
-    "48",
-    "49",
-    "50"
+    "45"
   ],
   "url": "https://github.com/ManeLippert/pop-launcher-super-key",
   "uuid": "pop-launcher-super-key@ManeLippert",
   "settings-schema": "org.gnome.shell.extensions.pop-launcher-super-key",
-  "version": 10
+  "version": 11
 }
