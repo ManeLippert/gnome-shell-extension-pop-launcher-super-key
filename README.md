@@ -1,8 +1,6 @@
 # Pop!_OS Launcher on Super-Key
 
-Since Pop!_OS moves to its own desktop enviroment (COSMIC DE) and I left linux behind me this extension will not get continued. The last update supports GNOME-Shell up to **Version 50** but needs some testing, report back to me when some errors occur.
-
-If you want to change the support manually, modify ```~/.local/share/gnome-shell/extensions/pop-launcher-super-key@ManeLippert/metadata.json``` under ```shell-version``` add the desired version (e.g ```44``` for GNOME 44).
+This branch is dedicated to the creation and maintainence of the [https://extensions.gnome.org](https://extensions.gnome.org) releases only. On the main branch the official develepemont of this extension takes place.
 
 ![alt text](pop-launcher-super-key.png)
 
@@ -17,26 +15,6 @@ Fork of [Pop COSMIC](https://github.com/pop-os/cosmic) that binds the Pop Launch
 ## Installation 
 
 [<img src="https://github.com/andyholmes/gnome-shell-extensions-badge/raw/master/get-it-on-ego.svg" width=120px>](https://extensions.gnome.org/extension/4797/pop-launcher-super-key/)
-
-* ### From Source
-
-    ```
-    git clone https://github.com/ManeLippert/pop-launcher-super-key
-    cd pop-launcher-super-key
-    make && make install
-    killall -3 gnome-shell
-    ```
-* ### From Release
-    Download release-file, unzip it and move it to ```~/.local/share/gnome-shell/extensions/```
-
-
-    After that reboot your PC or hit **'Alt+Fn+F2'** and type **'r'** or type in the terminal ```killall -3 gnome-shell```
-
-## Removal
-
-```
-rm -r ~/.local/share/gnome-shell/extensions/pop-launcher-super-key@ManeLippert
-```
 
 ## License
 COSMIC is available under the terms of the GNU General Public License Version 3. For full license terms, see [LICENSE](./LICENSE).
